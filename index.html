@@ -1,18 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Web AR Example</title>
-  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/gh/AR-js-org/AR.js/aframe/build/aframe-ar.js"></script>
+    <title>Web AR Example</title>
 </head>
-<body style="margin: 0; overflow: hidden;">
-  <a-scene embedded arjs>
-    <!-- Define o marcador (marker) -->
-    <a-marker preset="hiro">
-      <!-- Define o conteúdo de AR a ser exibido -->
-      <a-image src="https://imgur.com/a/ryprSfK" position="0 0.5 0" rotation="-90 0 0" height="1" width="1"></a-image>
-    </a-marker>
-    <a-entity camera></a-entity>
-  </a-scene>
+<body>
+    <h1>Welcome to Web AR Example</h1>
+    <p>Scan the QR code to see the image:</p>
+    <img src="https://i.imgur.com/ryprSfK.jpg" alt="Example Image">
 </body>
 </html>
